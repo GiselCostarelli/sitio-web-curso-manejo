@@ -1,0 +1,367 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav ul{
+    display: flex;
+    gap: 5rem;
+    font-family: roboto;
+    font-size: 18px;
+    color: white;
+}
+
+.imagen-logo{
+    animation-name:aparecer ;
+    animation-duration: 3s;
+    width: 161px;
+    height: 55px;
+    padding-top: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: black;
+}
+
+a{
+    color:white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 666px
+}
+
+.grid div{
+    border: 2px solid none; 
+}
+
+.imagen2{
+
+    width: 1090px;
+    height: 666px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+
+.texto1{
+    animation-name:aparecer ;
+    animation-duration: 3s;
+    text-shadow: 0px 10px 10px rgb(0, 0, 0);
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 280px;
+    font-weight: bold;
+    font-family:"roboto"
+    
+    }
+
+.texto2{
+    animation-name:aparecer ;
+    animation-duration: 3s;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);;
+    font-size: 34px;
+    color:#ffffff ;
+    position: absolute;
+    left: 50px;
+    top: 370px;
+    font-weight: bold;
+    font-family:"roboto" 
+    
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.contenedor{
+    font-size: 20px;
+    background-color: #4B5160;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 10px 10px black;
+    color:rgb(255, 255, 255);
+    margin-top: 30px;
+    width: 700px;
+    height: 600px;
+    transition: background-color;height 
+}  
+
+.contenedor:hover{
+    background-color: #242A39;
+}
+
+.contenedor2{
+    transition: background-color;
+    margin-left: 24px;
+    font-size: 20px;
+    background-color: #4B5160;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 710px;
+    height: 600px;
+    box-shadow: 5px 10px 10px black;
+    color: rgb(255, 255, 255);
+    margin-top: 65px;
+    font-family:"roboto"
+} 
+
+.contenedor2:hover{
+    background-color: #242A39;
+    transform: scale(1.1);
+
+}
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto 60%;
+    grid-template-rows: 638px
+} 
+
+.texto3{
+    animation-name:aparecer ;
+    animation-duration: 3s;
+    text-shadow: 0px 8px 8px rgb(0, 0, 0);;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    font-weight: bold;
+    font-family:"roboto"    
+    }
+    
+.texto4{
+    animation-name:aparecer ;
+    animation-duration: 3s;
+    text-shadow: 0px 2px 2px rgb(0, 0, 0);;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 200px;
+    top: 280px;
+    font-weight: bold;
+    font-family:"roboto"
+    }
+
+.imagen3{  
+    width: 1051px;   
+    height: 770px;
+    }
+
+.texto5{
+        font-size: 34;
+        font-family: "roboto";
+        color: black;
+        text-align: center;
+    }
+
+.imagenserv{
+        width: 450px;
+        height: 400px;
+        padding: 50px 12px 50px;
+        margin-right: 24px;
+        margin-left: 24px;
+
+    }
+.imagenserv:hover{
+    transform: scale(1.2);
+}
+
+.im{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-block-end: 0%;
+    }
+
+.textofoter{
+        font-size: 16px;
+        font-family: "roboto";
+        margin-left: 20%;
+        color: white;
+        padding-top: 24px;
+        display: flex;
+        gap: 50px;
+    }
+footer{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        justify-content:space-around;
+        align-items: c;
+    }
+.alineacion-izq{
+        width: 200px;
+        height: 60px;
+    }
+
+.alineacion-der{
+        width: 200px;
+        height: 80px
+    
+    }
+
+.imagentutor{
+    width: 400px;
+    padding: 24px;
+    }
+
+.imagentutor:hover{
+    transform: scale(1.5);
+}
+    
+
+.clase-tutor{
+    background-color: black;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content:space-evenly
+        
+    }
+
+.contenedor-tutor{
+        margin-top: 150px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+.texto-tutor{
+    width: 800px;
+    font-size: 20px;
+    font-family: "roboto";
+    padding: auto;
+    color:white;
+}
+
+.tablaboton{
+    padding:0px;
+    align-content: center;
+    margin-left: 24px;
+}
+
+.boton-masinfo{
+    color: white;
+    background: #4B5160;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 115px;
+    height: 20px;
+    text-align-last: center;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "roboto";
+
+}
+
+.imageninf{
+    width: 212px;
+    height: 200px;
+    margin-block-end: 24px;
+
+}
+
+.tamaño-imagen{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    
+}
+
+.texto5{
+    font-size: 34;
+    font-family: "roboto";
+    color: black;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.imagendescargas{
+
+    width: 944px;
+    height: 628px;
+    left: 236px;
+    top: 238px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+}
+
+.imagen-contacto{
+    width: 1798px;
+    height: 220px;
+    left: 24px;
+    top: 59px;
+}
+
+.texto-h3{
+    font-size: 14px;
+    font-family: "roboto";
+    text-align: center;
+    padding-top: 10px;
+}
+
+.formulario{
+    width: 1798px;
+    padding-top: 5px;
+    background-color:#F6F8F7;
+    height: 650px;
+    left: 24px;
+    right: 24px;
+    top: 269px;
+    margin:0%
+    
+}
+
+.listasformulario{
+    margin-left: 30%;
+    text-align: left;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 13px;
+    color: #C4C4C4;
+    font-family: "roboto";
+    border-color:#E0E3EB
+}
+
+.boton-eviar{
+    margin-top: 12px;
+    margin-left: 785px;
+    background-color: #545454;
+    color: white;
+    font-size: 14px;
+    font-family: "roboto";
+    height: 41px;
+    width: 215px;
+    align-items: center;
+    padding: 11.7077px 14.6346px
+
+
+}
+
+
+  
